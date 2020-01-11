@@ -1,11 +1,11 @@
 class Kubenvz < Formula
-  KUBENVZ_VERSION = "v0.0.2".freeze
+  KUBENVZ_VERSION = "v0.1.0"
 
   desc "Installs Kubenvz from github"
   homepage "https://github.com/nutellinoit/kubenvz"
   url "https://github.com/nutellinoit/kubenvz/releases/download/#{KUBENVZ_VERSION}/kubenvz_osx_x64.tar.gz"
   version #{KUBENVZ_VERSION}
-  sha256 'ed4aa9d91ddf4de3a7d0d850bea521d5b45a165a3951784a007ec65f71bf56c0'
+  sha256 'd3197095403c41bf7db75dcafc33d99fcf49a1900dba3943f800869ccbcaad52'
 
   def install
     bin.install 'kubenvz'
